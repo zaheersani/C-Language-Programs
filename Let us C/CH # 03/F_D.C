@@ -1,0 +1,57 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int x,y,a=65;
+	clrscr();
+	for(x=1;x<=7;x++)
+		{
+		 for(y=0;y<=12;y++)
+			{
+			 if(y==0)
+				 printf("%c",65);
+			 else
+			 if(y==1&&x>=0&&x<=6)
+				 printf("%c",66);
+			 else
+			 if(y==2&&x>=0&&x<=5)
+				 printf("%c",67);
+			 else
+			 if(y==3&&x>=0&&x<=4)
+				 printf("%c",68);
+			 else
+			 if(y==4&&x>=0&&x<=3)
+				 printf("%c",69);
+			 else
+			 if(y==5&&x>=0&&x<=2)
+				 printf("%c",70);
+			 else
+			 if(y==6&&x>=0&&x<=1)
+				 printf("%c",71);
+			 else
+			 if(y==7&&x>=1&&x<=2)
+				 printf("%c",70);
+			 else
+			 if(y==8&&x>=1&&x<=3)
+				 printf("%c",69);
+			 else
+			 if(y==9&&x>=1&&x<=4)
+				 printf("%c",68);
+			 else
+			 if(y==10&&x>=1&&x<=5)
+				 printf("%c",67);
+			 else
+			 if(y==11&&x>=0&&x<=6)
+				 printf("%c",66);
+			 else
+			 if(y==12)
+			 printf("%c",65);
+
+		 else
+			 printf(" ");
+			}
+		 printf("\n");
+		}
+	getch();
+	return 0;
+}

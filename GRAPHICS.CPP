@@ -1,0 +1,86 @@
+#include<conio.h>
+#include<stdio.h>
+#include<graphics.h>
+#include<dos.h>
+void main()
+{
+	int driver,mode,x,y,d;
+	driver=DETECT;
+	initgraph(&driver,&mode,"");
+	delay(2000);
+	setcolor(4);
+	rectangle(0,0,getmaxx()-1,getmaxy()-1);
+	setcolor(3);
+	delay(400);
+	rectangle(10,10,getmaxx()-11,getmaxy()-11);
+	delay(400);
+	setcolor(2);
+	rectangle(20,20,getmaxx()-21,getmaxy()-21);
+	delay(400);
+	setcolor(5);
+	rectangle(30,30,getmaxx()-31,getmaxy()-31);
+	delay(400);
+	setcolor(6);
+	rectangle(40,40,getmaxx()-41,getmaxy()-41);
+	delay(400);
+	setcolor(7);
+	rectangle(50,50,getmaxx()-51,getmaxy()-51);
+	delay(400);
+	setcolor(8);
+	rectangle(60,60,getmaxx()-61,getmaxy()-61);
+	delay(400);
+	setcolor(9);
+	rectangle(70,70,getmaxx()-71,getmaxy()-71);
+	delay(400);
+	setcolor(10);
+	rectangle(80,80,getmaxx()-81,getmaxy()-81);
+	delay(400);
+	setcolor(11);
+	rectangle(90,90,getmaxx()-91,getmaxy()-91);
+	delay(400);
+	setcolor(12);
+	rectangle(100,100,getmaxx()-101,getmaxy()-101);
+	delay(400);
+	setcolor(13);
+	rectangle(110,110,getmaxx()-111,getmaxy()-111);
+	delay(400);
+	setcolor(14);
+	rectangle(120,120,getmaxx()-121,getmaxy()-121);
+	delay(400);
+	setcolor(15);
+	rectangle(130,130,getmaxx()-131,getmaxy()-131);
+	delay(400);
+	setcolor(2);
+	rectangle(140,140,getmaxx()-141,getmaxy()-141);
+	delay(400);
+	setcolor(1);
+	rectangle(150,150,getmaxx()-151,getmaxy()-151);
+	delay(400);
+	setcolor(3);
+	rectangle(160,160,getmaxx()-161,getmaxy()-161);
+	delay(400);
+	setcolor(5);
+	rectangle(170,170,getmaxx()-171,getmaxy()-171);
+	delay(400);
+	setcolor(6);
+	rectangle(180,180,getmaxx()-181,getmaxy()-181);
+	delay(400);
+	setcolor(7);
+	rectangle(190,190,getmaxx()-191,getmaxy()-191);
+	delay(400);
+	setcolor(8);
+	rectangle(200,200,getmaxx()-201,getmaxy()-201);
+	delay(400);
+	setcolor(9);
+	rectangle(210,210,getmaxx()-211,getmaxy()-211);
+	delay(400);
+	setcolor(10);
+	rectangle(220,220,getmaxx()-221,getmaxy()-221);
+	delay(400);
+	setcolor(6);
+	outtextxy(260,235,"CONGRATULATIONS");
+//	setcolor(5);
+//	outtextxy(240,245,"Capt.KHURRAM SHEHZAD");
+	getch();
+	closegraph();
+}
